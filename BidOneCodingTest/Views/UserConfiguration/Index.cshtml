@@ -1,0 +1,35 @@
+﻿@model BidOneCodingTest.Models.UserConfiguration
+
+@{
+    ViewData["Title"] = "User Configuration";
+}
+<h1>User Configuration</h1>
+<h4>The system is currently configured for the following user:</h4>
+<br />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => model.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.LastName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit")
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
