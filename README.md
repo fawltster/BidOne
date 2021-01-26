@@ -1,7 +1,7 @@
 # BidOne
 Bid One Coding Test
 
-This is a simple ASP.NET application which allows a user to configure an application with their first name and last name.
+This is a simple ASP.NET Core application which allows a user to configure an application with their first name and last name.
 
 This uses the following features:
 
